@@ -63,5 +63,7 @@ numpy
 
 🧹 [Task_1.py](Task_1.py) – Python script to clean and preprocess the appointment data.
 
-📄 [Medical_Appointment_cleaned.csv](Medical_Appointment_cleaned.csv ) – Cleaned dataset for analysis and modeling..
+📄 [Medical_Appointment_cleaned.csv](Medical_Appointment_cleaned.csv ) – Cleaned dataset for analysis and modeling.
+
+> [short Summary of changes](Short%20Summary%20of%20Changes.txt) - Summary about what changes i did 
 
