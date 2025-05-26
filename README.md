@@ -1,36 +1,64 @@
-# Task_1
+# task 1
+📊 Medical Appointment No-Show Analysis (with Python)
+This project focuses on cleaning and preprocessing the Medical Appointment No-Show dataset using Python, preparing it for further analysis and modeling.
 
-# Medical Appointment No-Show Analysis - Data Cleaning
+📝 Dataset Overview
+The dataset contains medical appointment records with details such as:
 
-This repository contains the data cleaning and preprocessing steps for the Medical Appointment No-Show dataset. The goal is to prepare the data for analysis and modeling by transforming raw data into a clean, structured format.
+Patient ID, Appointment ID
 
-## Dataset
+Gender, Age
 
-- Original dataset: `Medical Appointment No Shows.csv`
-- Cleaned dataset output: `Medical_Appointment_cleaned.csv`
+Scheduled Day, Appointment Day
 
-## Summary of Data Cleaning
+Neighborhood
 
-- Renamed columns to lowercase and standardized naming conventions.
-- Corrected typos in column headers.
-- Filled missing values in the `age` column with the mean age.
-- Removed duplicate records.
-- Standardized categorical values for `gender` and `no_show`.
-- Converted date columns to datetime format.
-- Created a new feature `waiting_days` to capture the time between scheduling and appointment.
-- Filtered out invalid ages and negative waiting days.
-- Removed columns not needed for analysis (`patientid`, `appointmentid`).
-- Simplified handicap to a binary indicator.
+Health indicators: Hypertension, Diabetes, Alcoholism, Handicap
 
-## How to Use
+Scholarship status
 
-1. Clone the repository.
-2. Run the cleaning script (`Task_1.py` or a Jupyter notebook with the cleaning code).
-3. Use the cleaned CSV file (`Medical_Appointment_cleaned.csv`) for further analysis or modeling.
+SMS received
 
-## Dependencies
+Whether the patient showed up or not (No-show)
 
-- Python
-- pandas
-- numpy
+🧽 Data Cleaning & Transformation
+We performed the following cleaning and preprocessing steps:
+
+🔍 Standardized and corrected column headers (lowercase, replaced hyphens, fixed typos).
+
+❌ Removed duplicate rows to avoid redundancy.
+
+🚫 Handled missing values by filling missing ages with the average age.
+
+🔢 Converted categorical columns:
+
+Gender mapped to numeric (F → 0, M → 1)
+
+No-show mapped to numeric (No → 0, Yes → 1)
+
+🗓️ Converted date columns (scheduledday and appointmentday) to datetime objects for accurate time handling.
+
+➕ Added a new column waiting_days calculating days between scheduling and appointment, filtering out invalid negative values.
+
+🚫 Removed unrealistic ages outside 0-115 years range.
+
+🗑️ Dropped unused columns (patientid and appointmentid) to focus on analysis-relevant data.
+
+🩺 Simplified the handicap column into a binary indicator (0 = no handicap, 1 = handicap present).
+
+All these transformations are performed in the cleaning script Task_1.py.
+
+⚙️ Dependencies
+Python 3.x
+
+pandas
+
+numpy
+
+📁 Project Files
+📘 README.md – You are here! Project documentation and guide.
+📄 Medical Appointment No Shows.csv – The original unprocessed dataset.
+🧹 Task_1.py – Python script to clean and preprocess the appointment data.
+📄 Medical_Appointment_cleaned.csv – Cleaned dataset for analysis and modeling.
+
 
