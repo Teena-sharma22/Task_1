@@ -1,0 +1,22 @@
+Data Cleaning & Preprocessing Summary
+Renamed columns to lowercase and replaced hyphens with underscores for consistency
+
+Corrected misspelled column names (hipertension → hypertension, handcap → handicap)
+
+Handled missing values by filling null age entries with the mean age
+
+Removed duplicate rows
+
+Standardized text values: converted gender and no_show to numerical format
+
+Converted scheduledday and appointmentday to datetime format
+
+Simplified handicap to binary (0 or 1)
+
+Added waiting_days column and removed rows with negative waiting days
+
+Removed records with invalid ages (<0 or >115)
+
+Dropped unused identifier columns: patientid, appointmentid
+
+Exported the cleaned dataset as Medical_Appointment_cleaned.csv
