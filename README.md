@@ -1,5 +1,5 @@
 # task 1
-📊 Medical Appointment No-Show Analysis (with Python)
+#📊 Medical Appointment No-Show Analysis (with Python)
 This project focuses on cleaning and preprocessing the Medical Appointment No-Show dataset using Python, preparing it for further analysis and modeling.
 
 📝 Dataset Overview
@@ -56,9 +56,13 @@ pandas
 numpy
 
 📁 Project Files
+
 📘 README.md – You are here! Project documentation and guide.
+
 📄 Medical Appointment No Shows.csv – The original unprocessed dataset.
+
 🧹 Task_1.py – Python script to clean and preprocess the appointment data.
+
 📄 Medical_Appointment_cleaned.csv – Cleaned dataset for analysis and modeling.
 
 
