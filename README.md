@@ -57,10 +57,11 @@ numpy
 
 📁 Project Files
 
-📘 README.md – You are here! Project documentation and guide.
+📘 [README.md](README.md) – You are here! Project documentation and guide.
 
-📄 Medical Appointment No Shows.csv – The original unprocessed dataset.
+📄 [Medical Appointment No Shows.csv](Medical%20Appointment%20No%20Shows.csv) – The original unprocessed dataset.
 
-🧹 Task_1.py – Python script to clean and preprocess the appointment data.
+🧹 [Task_1.py](Task_1.py) – Python script to clean and preprocess the appointment data.
 
-📄 Medical_Appointment_cleaned.csv – Cleaned dataset for analysis and modeling..
+📄 [Medical_Appointment_cleaned.csv](Medical_Appointment_cleaned.csv ) – Cleaned dataset for analysis and modeling..
+
