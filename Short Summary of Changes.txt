@@ -1,4 +1,5 @@
-Data Cleaning & Preprocessing Summary
+Data Cleaning & Preprocessing Summary : 
+ 
 Renamed columns to lowercase and replaced hyphens with underscores for consistency
 
 Corrected misspelled column names (hipertension → hypertension, handcap → handicap)
