@@ -65,7 +65,7 @@ numpy
 
 📄 [Medical_Appointment_cleaned.csv](Medical_Appointment_cleaned.csv ) – Cleaned dataset for analysis and modeling.
 
-📝 Short Summary of Changes.txt – Summary of all cleaning steps performed on the dataset.
+📝 [Short Summary of Changes.txt](Short%20Summary520of%20Changes.txt) – Summary of all cleaning steps performed on the dataset.
 
 
 
